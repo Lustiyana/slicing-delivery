@@ -12529,12 +12529,17 @@ footer p {
 
 .navbar-delivery {
   padding-top: 15px;
+  background-color: #fff;
 }
 
 @media (max-width: 767.98px) {
   .navbar-delivery {
     background-color: #fff !important;
   }
+}
+
+.navbar-delivery .nav-item .active {
+  color: #29a867;
 }
 
 @media (min-width: 992px) {
@@ -12544,9 +12549,22 @@ footer p {
   }
 }
 
+@media (max-width: 767.98px) {
+  .navbar-delivery .nav-item .nav-link {
+    text-align: center;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-delivery .nav-item .btn {
     margin-left: 12px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-delivery .nav-item .btn {
+    margin-top: 12px;
+    width: 100%;
   }
 }
 
@@ -12570,5 +12588,26 @@ footer p {
   background-color: #ffff !important;
   -webkit-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
+}
+
+.page-home h5, .page-home .h5 {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.page-home .food-delivery-categories {
+  margin-top: 30px;
+}
+
+.page-home .food-delivery-product {
+  margin-top: 10px;
+}
+
+.page-home .delivery-carousel {
+  border-radius: 12px;
+}
+
+.page-home .delivery-carousel .carousel-control {
+  background-color: black;
 }
 /*# sourceMappingURL=main.css.map */

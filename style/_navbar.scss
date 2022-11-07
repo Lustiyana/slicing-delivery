@@ -1,20 +1,31 @@
 .navbar-delivery {
   padding-top: 15px;
+  background-color: #fff;
 
   @include media-breakpoint-down(md) {
     background-color: #fff !important;
   }
 
   .nav-item {
+    .active {
+      color: #29a867;
+    }
     .nav-link {
       @include media-breakpoint-up(lg) {
         margin-left: 12px;
         margin-right: 12px;
       }
+      @include media-breakpoint-down(md) {
+        text-align: center;
+      }
     }
     .btn {
       @include media-breakpoint-up(lg) {
         margin-left: 12px;
+      }
+      @include media-breakpoint-down(md) {
+        margin-top: 12px;
+        width: 100%;
       }
     }
   }
