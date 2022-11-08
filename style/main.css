@@ -12591,7 +12591,11 @@ footer p {
 
 .page-home h5, .page-home .h5 {
   font-weight: 300;
-  margin-bottom: 16px;
+  margin-bottom: 48px;
+  margin-top: 48px;
+  text-align: center;
+  font-weight: 700;
+  color: #29a867;
 }
 
 .page-home .delivery-categories {
@@ -12604,6 +12608,17 @@ footer p {
 
 .page-home .delivery-carousel .carousel-inner {
   border-radius: 8px;
+}
+
+.page-home .delivery-discount .carousel-control-prev,
+.page-home .delivery-discount .carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 35%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .component-categories {
@@ -12621,10 +12636,53 @@ footer p {
 }
 
 .component-categories .categories-text {
-  color: #0c8d36;
+  color: #1d1b1c;
   font-size: 18px;
   text-align: center;
   font-weight: normal;
   margin-top: 12px;
+}
+
+.component-products {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.component-products .product-thumbnail {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.component-products .product-thumbnail:hover .product-image, .component-products .product-thumbnail:focus .product-image {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.component-products .product-thumbnail .product-image {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.component-products .product-text {
+  color: #0c0d36;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 1px;
+}
+
+.component-products .product-price {
+  font-weight: 500;
+  font-size: 16px;
+  color: red;
 }
 /*# sourceMappingURL=main.css.map */
