@@ -1,6 +1,5 @@
 .navbar-delivery {
   padding-top: 15px;
-  background-color: #fff;
 
   @include media-breakpoint-down(md) {
     background-color: #fff !important;
@@ -45,9 +44,9 @@
     color: #fefefe;
     margin-left: -10px;
   }
+}
 
-  .navbar-fixed-top.scrolled {
-    background-color: #ffff !important;
-    transition: background-color 300ms linear;
-  }
+.navbar-fixed-top.scrolled {
+  background-color: #ffff !important;
+  transition: background-color 300ms linear;
 }

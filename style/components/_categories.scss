@@ -1,0 +1,19 @@
+.component-categories {
+  padding: 30px, 30px, 10px, 30px;
+  margin-bottom: 20px;
+  margin-top: 12px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .categories-text {
+    color: #0c8d36;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 12px;
+  }
+}
