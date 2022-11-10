@@ -12621,6 +12621,45 @@ footer p {
           transform: translateY(-50%);
 }
 
+.page-details .delivery-galery {
+  margin-top: 16px;
+}
+
+.page-details .delivery-galery img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.page-details .delivery-galery .delivery-heading {
+  margin-bottom: 10px;
+}
+
+.page-details .delivery-galery .delivery-heading h1, .page-details .delivery-galery .delivery-heading .h1 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0c0d36;
+}
+
+.page-details .delivery-galery .delivery-heading .price {
+  color: red;
+  font-weight: 500;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.page-details .delivery-galery .delivery-description {
+  font-weight: normal;
+  font-size: 16px;
+  color: #525252;
+}
+
+@media (min-width: 992px) {
+  .page-details .delivery-galery .delivery-description {
+    height: 336px;
+  }
+}
+
 .component-categories {
   padding: 30px, 30px, 10px, 30px;
   margin-bottom: 20px;

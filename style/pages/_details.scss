@@ -1,0 +1,33 @@
+.page-details {
+  .delivery-galery {
+    margin-top: 16px;
+    img {
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    .delivery-heading {
+      margin-bottom: 10px;
+      h1 {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: #0c0d36;
+      }
+      .price {
+        color: red;
+        font-weight: 500;
+        font-size: 27px;
+        margin-bottom: 10px;
+      }
+    }
+    .delivery-description {
+      font-weight: normal;
+      font-size: 16px;
+      color: #525252;
+      @include media-breakpoint-up(lg) {
+        height: 336px;
+      }
+    }
+  }
+}
