@@ -12589,7 +12589,7 @@ footer p {
   transition: background-color 300ms linear;
 }
 
-.page-home h5, .page-home .h5 {
+h5, .h5 {
   font-weight: 300;
   margin-bottom: 48px;
   margin-top: 48px;
@@ -12658,6 +12658,11 @@ footer p {
   .page-details .delivery-galery .delivery-description {
     height: 336px;
   }
+}
+
+.page-details .delivery-review .media img {
+  height: 24px;
+  width: auto;
 }
 
 .component-categories {
